@@ -27,26 +27,44 @@
 * 2. 手动安装各种插件
 
 npm install –save gulp //本地使用gulp
+
 npm install –save gulp-imagemin //压缩图片
+
 npm install –save gulp-minify-css //压缩css
+
 npm install –save gulp-ruby-sass //sass
+
 npm install –save gulp-jshint //js代码检测
+
 npm install –save gulp-uglify //js压缩
+
 npm install –save gulp-concat //文件合并
+
 npm install –save gulp-rename //文件重命名
+
 npm install –save png-sprite //png合并
+
 npm install –save gulp-htmlmin //压缩html
+
 npm install –save gulp-clean //清空文件夹
+
 npm install –save browser-sync //文件修改浏览器自动刷新
+
 npm install –save gulp-shell //执行shell命令
+
 npm install –save gulp-ssh //操作远程机器
+
 npm install –save run-sequence //task顺序执行
 
+
 或者根据package.json 自动安装。把package.json拷贝到自己的工程目录下，进入目录，执行:npm install
+
 
 * 3.目录划分
 
 >目录结构  
+
+
 	* dist-----------------------用于生产环境下的目录
 	 
 	* css------------------------生产环境下的css目录  
