@@ -12,12 +12,12 @@ var minifycss = require('gulp-minify-css'),	//缩小化(minify)CSS
 	minhtml = require('gulp-htmlmin'), // html压缩
     jshint = require('gulp-jshint'),//Javascript代码验证工具
     browserSync = require('browser-sync').create(),
-    scp = require('gulp-scp2'),
+    scp = require('gulp-scp2'),   //文件同步到服务器
     fs = require('fs'),
     imagemin = require('gulp-imagemin'),//图片压缩
-    rev = require('gulp-rev'),
-    revReplace = require('gulp-rev-replace'),
-    userref = require('gulp-useref'),
+    rev = require('gulp-rev'),  //自动添加版本号
+    revReplace = require('gulp-rev-replace'), //自动添加版本号
+    userref = require('gulp-useref'), //MD5后缀
     filter = require('gulp-filter'),  //文件过滤
     csso = require('gulp-csso');  //css优化效果
     
@@ -129,4 +129,4 @@ gulp.task('clear', function(){
 });
 
 //批任务
-gulp.task('build', ['html', 'css', 'js', 'img','reload', 'scp']);
+gulp.task('build', ['html', 'css', 'js', 'img', 'reload', 'scp']);
