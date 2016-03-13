@@ -1,0 +1,47 @@
+{
+  "name": "admin",
+  "version": "1.0.0",
+  "description": "后台管理系统",
+  "main": "Gruntfile.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "dependencies": {
+    "browser-sync": "^2.9.11",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-htmlmin": "^1.3.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-shell": "^0.5.2",
+    "gulp-ssh": "^0.5.5",
+    "gulp-uglify": "^1.5.3",
+    "png-sprite": "^0.1.1",
+    "run-sequence": "^1.1.5"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-sass": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hitheworld/Admin-AngularJS.git"
+  },
+  "keywords": [
+    "angularJS-admin"
+  ],
+  "author": "xieping",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hitheworld/Admin-AngularJS/issues"
+  },
+  "homepage": "https://github.com/Hitheworld/Admin-AngularJS#readme"
+}

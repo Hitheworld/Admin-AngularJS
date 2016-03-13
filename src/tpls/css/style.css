@@ -1,0 +1,24 @@
+.col_main{ overflow-y: auto;}
+
+/*左则菜单显示与隐藏*/
+.col_side ul li ul{ display:none; position:absolute; top: 0px; left: 150px; width: 150px; height: 100%; background-color: #6d83a0; border-right: 5px solid #3b4756;}
+.col_side ul li ul.on{ display:block; }
+/*.col_side ul li:hover ul{ display:block; }*/
+.col_side ul li ul .menu2_on{ color: #08ffe5 !important; border-right: 5px solid #f00;  background-color: rgba(0, 0, 0, 0.15);}
+.col_side ul li ul li a.menu_title{color: #fff;}
+.col_side ul li ul li a.menu_title:hover{ color: #08ffe5;}
+.col_side ul li ul li { float:none;}
+.col_side ul li ul li a { }
+.menu_col_left { float: left; width: 155px; height: 100%;}
+.icon_menu{display: none;}
+
+/*内容加载区*/
+#contentBox{ width: 100%; height: 100%; overflow: hidden;}
+/* 正文：分页功能区 */
+#pages { text-align: right; height: 28px; line-height: 28px; margin-top: 5px;}
+#pages a{ color: #000;}
+#pages a, #pages a.current_page:hover{ padding: 5px 10px;}
+#pages a:hover{padding: 5px 9px; background: #cddde4; border: #97b9c9 solid 1px;  color: #067db5;}
+#pages a.current_page{background: #FFF;border: #89bdd8 solid 1px;color: #067db5;}
+
+

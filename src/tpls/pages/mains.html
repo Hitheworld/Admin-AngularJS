@@ -1,0 +1,41 @@
+<div class="WinOS">
+<div id="body content" class="body">
+	<div class="container_box">
+		
+		<!--左则导航-->
+		<div class="col_side" ng-controller="navController">
+			<ul class="menu_box">
+				
+				<li class="menu menu_first" ng-repeat="nav in navs">
+					<mainnav mnav="nav"></mainnav>
+					<!-- 二级导航菜单  -->
+					<ul class="menu_box">
+						<li class="menu" ng-repeat="snav in nav.subNav">
+						    <subnav bnav="snav"></subnav>
+						</li>
+						<div class="classify_title">
+						</div>
+					</ul>
+					<!-- /二级菜单 -->
+				</li>
+				
+				<div class="classify_title"></div>
+			</ul>
+		</div>
+		<!--/左则导航结束-->
+		
+		<div class="menu_col_left"></div>
+
+		<div class="col_main js_col_main">
+			
+			<!-- 内容加载区 -->
+			<div ui-view>
+				加载中...
+			</div>
+			<!-- /内容加载区-->
+			
+		</div>
+	</div>
+</div>
+
+</div>
